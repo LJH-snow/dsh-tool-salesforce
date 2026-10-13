@@ -1,0 +1,7 @@
+plugins:
+  salesforce:
+    package: '@libai168/dsh-tool-salesforce'
+    config:
+      accessToken: ${SALESFORCE_ACCESS_TOKEN}
+      instanceUrl: ${SALESFORCE_INSTANCE_URL}
+      apiVersion: 'v67.0'
